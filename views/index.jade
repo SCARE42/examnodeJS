@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  each gare in gares
+      .boxGare
+        .headerGare
+          .title
+            h2= gare.nom
+          .btn 
+           .Ubtn 
+            input(type='submit', value='update', class='ubtn' data-id="#{gare._id}")
+           .Xbtn
+            input(type='submit', value='X', class='Xbtn' data-id="#{gare._id}")

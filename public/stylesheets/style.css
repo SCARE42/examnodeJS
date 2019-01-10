@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 50px;
+    background-color: #d8d7d7;
+    font: 14px "Lucida Grande",Helvetica,Arial,sans-serif;
+}
+
+a {
+ color:#00B7FF
+}
+
+.boxGare {
+    float: left;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    margin: 1em;
+    padding: 5px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.98);
+}
+ .btn {
+    display: flex;
+    justify-content: space-evenly;
+ }
+.Ubtn {
+    background-color: rgb(19, 133, 226);
+}
+.Xbtn {
+    background-color: rgba(214, 31, 31, 0.959);
+}
